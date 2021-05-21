@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/EDA/DigitalCircuit/MyDigitalWorks/Quartus/counter/simulation/modelsim
+vbits_counter
+Z1 !s110 1621569833
+!i10b 1
+!s100 3?3=CkeZRSA7=6zkco><X2
+I5CL4UW<1IooZATkVP>elI3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1621568768
+8D:/EDA/DigitalCircuit/MyDigitalWorks/Synchronous sequential circuits/Counter/src/3bits_counter.v
+FD:/EDA/DigitalCircuit/MyDigitalWorks/Synchronous sequential circuits/Counter/src/3bits_counter.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1621569833.000000
+!s107 D:/EDA/DigitalCircuit/MyDigitalWorks/Synchronous sequential circuits/Counter/src/3bits_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/EDA/DigitalCircuit/MyDigitalWorks/Synchronous sequential circuits/Counter/src|D:/EDA/DigitalCircuit/MyDigitalWorks/Synchronous sequential circuits/Counter/src/3bits_counter.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+D:/EDA/DigitalCircuit/MyDigitalWorks/Synchronous sequential circuits/Counter/src}
+Z6 tCvgOpt 0
+vtb_bits_counter
+R1
+!i10b 1
+!s100 jW`?MQEX>D3l2Kda3S;CK0
+IVT392n55PR[YFDLcP3H;V1
+R2
+R0
+w1621569668
+8D:/EDA/DigitalCircuit/MyDigitalWorks/Quartus/counter/../../Synchronous sequential circuits/Counter/src/tb_3bits_counter.v
+FD:/EDA/DigitalCircuit/MyDigitalWorks/Quartus/counter/../../Synchronous sequential circuits/Counter/src/tb_3bits_counter.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/EDA/DigitalCircuit/MyDigitalWorks/Quartus/counter/../../Synchronous sequential circuits/Counter/src/tb_3bits_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/EDA/DigitalCircuit/MyDigitalWorks/Quartus/counter/../../Synchronous sequential circuits/Counter/src|D:/EDA/DigitalCircuit/MyDigitalWorks/Quartus/counter/../../Synchronous sequential circuits/Counter/src/tb_3bits_counter.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+D:/EDA/DigitalCircuit/MyDigitalWorks/Quartus/counter/../../Synchronous sequential circuits/Counter/src}
+R6

@@ -1,0 +1,11 @@
+Fitter Status : Successful - Fri May 21 11:56:19 2021
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : bits_counter
+Top-level Entity Name : bits_counter
+Family : MAX V
+Device : 5M40ZM64C4
+Timing Models : Final
+Total logic elements : 3 / 40 ( 8 % )
+Total pins : 8 / 30 ( 27 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

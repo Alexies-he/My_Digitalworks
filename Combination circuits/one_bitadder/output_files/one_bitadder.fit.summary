@@ -1,0 +1,11 @@
+Fitter Status : Successful - Tue May 04 00:28:37 2021
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : one_bitadder
+Top-level Entity Name : one_bitadder
+Family : MAX V
+Device : 5M2210ZF256C5
+Timing Models : Final
+Total logic elements : 9 / 2,210 ( < 1 % )
+Total pins : 25 / 203 ( 12 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

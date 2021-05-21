@@ -1,0 +1,12 @@
+module mux2to1(D0,D1,S,Y);
+input D0;
+input D1;
+inout S
+output Y;
+reg Y;
+always @(D0,D1)
+	case(S)
+	1'b0:Y=D0;
+	1'b1:Y=D1;
+	endcase
+endmodule

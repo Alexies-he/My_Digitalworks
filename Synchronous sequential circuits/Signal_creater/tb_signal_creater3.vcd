@@ -1,0 +1,123 @@
+$date
+	Tue May 18 16:42:36 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_signal_creater3 $end
+$var wire 1 ! out $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$scope module U1 $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var reg 4 $ count [3:0] $end
+$var reg 1 ! out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 $
+0#
+0"
+1!
+$end
+#10
+1"
+#20
+1#
+0"
+#30
+0!
+b1 $
+1"
+#40
+0"
+#50
+b10 $
+1"
+#60
+0"
+#70
+1!
+b11 $
+1"
+#80
+0"
+#90
+b100 $
+1"
+#100
+0"
+#110
+b101 $
+1"
+#120
+0"
+#130
+b0 $
+1"
+#140
+0"
+#150
+0!
+b1 $
+1"
+#160
+0"
+#170
+b10 $
+1"
+#180
+0"
+#190
+1!
+b11 $
+1"
+#200
+0"
+#210
+b100 $
+1"
+#220
+0"
+#230
+b101 $
+1"
+#240
+0"
+#250
+b0 $
+1"
+#260
+0"
+#270
+0!
+b1 $
+1"
+#280
+0"
+#290
+b10 $
+1"
+#300
+0"
+#310
+1!
+b11 $
+1"
+#320
+0"
+#330
+b100 $
+1"
+#340
+0"
+#350
+b101 $
+1"
+#360

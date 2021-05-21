@@ -1,0 +1,15 @@
+D:/EDA/DigitalCircuit/MyDigitalWorks/ModelSim/one_bitadder/src/one_bitadder.v {1 {vlog -work work -stats=none D:/EDA/DigitalCircuit/MyDigitalWorks/ModelSim/one_bitadder/src/one_bitadder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module one_bit_fulladder
+
+Top level modules:
+	one_bit_fulladder
+
+} {} {}} D:/EDA/DigitalCircuit/MyDigitalWorks/ModelSim/one_bitadder/src/tb_one_bitadder.v {1 {vlog -work work -stats=none D:/EDA/DigitalCircuit/MyDigitalWorks/ModelSim/one_bitadder/src/tb_one_bitadder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_one_bitadder
+
+Top level modules:
+	tb_one_bitadder
+
+} {} {}}

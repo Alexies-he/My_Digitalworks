@@ -1,0 +1,95 @@
+`timescale 1ns/1ns
+module tb_bits_counter;
+reg cp,rst;//申明输入信号
+wire out0,out1,out2;//申明输出信号
+initial 
+	begin
+    $display("start a clock pulse");
+    $dumpfile("tb_bits_counter");
+    $dumpvars(0,tb_bits_counter);
+
+cp=0;rst=0;//输入信号的波形
+#10
+cp=1;rst=0;
+#10
+cp=0;rst=1;//输入信号的波形
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=1;
+#10
+cp=1;rst=1;
+#10
+cp=0;rst=0;
+#10
+cp=1;rst=0;
+#10
+cp=0;rst=0;
+#10
+cp=1;rst=0;
+#10
+cp=0;rst=0;
+#10
+cp=1;rst=0;
+#10
+$stop;
+$finish;
+    end
+    bits_counter U1(.clk(cp),.rst(rst),.out0(out0),.out1(out1),.out2(out2),.count());
+endmodule

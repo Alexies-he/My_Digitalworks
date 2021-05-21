@@ -1,0 +1,86 @@
+`timescale 1ns/1ns
+module tb_signal_creater3;
+reg clk,rst;//申明输入信号
+wire out;//申明输出信号
+initial 
+	begin
+	$display("start a clock pulse");
+    $dumpfile("tb_signal_creater3.vcd");
+    $dumpvars(0,tb_signal_creater3);
+clk=0;rst=0;//输入信号的波形
+#10
+clk=1;rst=0;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+clk=0;rst=1;
+#10
+clk=1;rst=1;
+#10
+$stop;
+$finish;
+		end
+signal_creater_3 U1(.clk(clk),.rst(rst),.out(out));
+endmodule

@@ -1,0 +1,89 @@
+$date
+	Mon May 17 18:05:21 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_two_divide $end
+$var wire 1 ! Q1 $end
+$var wire 1 " Q0 $end
+$var reg 1 # cp $end
+$var reg 1 $ rst $end
+$scope module U1 $end
+$var wire 1 # cp $end
+$var wire 1 $ rst $end
+$var wire 1 % w1 $end
+$var wire 1 ! Q1 $end
+$var wire 1 " Q0 $end
+$scope module U1 $end
+$var wire 1 # cp $end
+$var wire 1 % q $end
+$var wire 1 $ rst $end
+$var reg 1 " Q0 $end
+$upscope $end
+$scope module U2 $end
+$var wire 1 % cp $end
+$var wire 1 & q $end
+$var wire 1 $ rst $end
+$var reg 1 ! Q0 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1&
+1%
+0$
+0#
+0"
+0!
+$end
+#10
+1#
+#20
+0#
+#30
+0%
+1"
+1$
+1#
+#40
+0#
+#50
+0&
+1!
+1%
+0"
+1#
+#60
+0#
+#70
+0%
+1"
+1#
+#80
+0#
+#90
+1&
+0!
+1%
+0"
+1#
+#100
+0$
+0#
+#110
+1#
+#120
+0#
+#130
+1#
+#140
+0#
+#150
+1#
+#160
