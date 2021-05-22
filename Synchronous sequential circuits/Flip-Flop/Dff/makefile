@@ -1,4 +1,4 @@
-all: clean compile simulate gtkwave
+all: clean compile simulate 
 
 compile:
 	iverilog -o ./build/simv \
