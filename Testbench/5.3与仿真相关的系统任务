@@ -1,0 +1,7 @@
+1.$display与$write函数
+    语法格式：$display/$write("<format_specifiers>",<signal1,signal2,...,signaln>);
+    区别：$display后面换行，$write不用换行
+    <format_specifiers>:%h 以十六进制数形式输出；%m 输出等级层次的名字
+2.$monitor与$strobe函数
+    语法格式：$monitor于上诉相同，$strobe-在所有时间处理完后，以十进制输出一行格式化文本；$strobeb-在所有时间处理完后，以二进制输出一行格式化文本
+    区别：$monitor-每当参数列表中变量值发生变化时，输出显示；$strobe-用于某时刻所有时间处理完后，在这个时间步的结尾输出一行格式化文本
