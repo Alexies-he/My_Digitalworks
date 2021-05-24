@@ -8,6 +8,6 @@ parameter delay =2 ;
     #delay r={$random}%24;
     end
     initial begin
-    $monitor($time,,"The random number is %d",r);
+    $monitor($time,"The random number is %d",r);
     end
 endmodule
