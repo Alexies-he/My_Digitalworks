@@ -5,3 +5,17 @@
 2.$monitor与$strobe函数
     语法格式：$monitor于上诉相同，$strobe-在所有时间处理完后，以十进制输出一行格式化文本；$strobeb-在所有时间处理完后，以二进制输出一行格式化文本
     区别：$monitor-每当参数列表中变量值发生变化时，输出显示；$strobe-用于某时刻所有时间处理完后，在这个时间步的结尾输出一行格式化文本
+3.$time与$realtime函数
+    两个函数调用都可以返回当前的仿真时刻值
+    区别：$realtime函数是返回实型数据的形式返回仿真时间
+4.$finish与$stop函数
+    finish代表结束仿真；stop代表暂停仿真
+    语法：$finish(n);n=0代表不输出任何信息、n=1给出仿真时间和位置、n=2给出仿真时间和位置要有内存以及CPU时间统计
+5.$random函数
+    产生随机数的系统函数，每次调用返回一个32位的随机数，是一个带符号的整型数
+    语法：$random %b;//b要为常数且大于零，代表给出一个-b+1~b-1的随机数；{$random}%b;//产生一个无符号数
+6.$dumpfile与$dumpvars
+    $dumpfile用于指定VCD文件名；$dumpvars用于转储模块中的信号
+        $dumpvars(0,tb_dff.U1);/*$dumpvars(1,tb_dff)表示转储tb_dff模块下的第一层信号(也就是仅有测试平台的信号);
+        $dumpvars(2,tb_dff)表示转储tb_dff模块下的两层信号（也就是有测试平台的端口信号+被验证的端口信号）；
+        $dumpvars(0,tb_dff.U1)表示转储tb_dff.U1模块下的所以信号此时有可能报错，因为没有module dff*/
