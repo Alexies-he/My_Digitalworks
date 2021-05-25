@@ -6,7 +6,7 @@ initial
 	begin
     $display("start a clock pulse");
     $dumpfile("tb_bits_counter");
-    $dumpvars(0,tb_bits_counter);
+    $dumpvars(1,tb_bits_counter);
 
 cp=0;rst=0;//输入信号的波形
 #10

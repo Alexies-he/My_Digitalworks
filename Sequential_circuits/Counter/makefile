@@ -1,9 +1,9 @@
-all: clean compile simulate gtkwave
+all: clean compile simulate 
 
 compile:
 	iverilog -o ./build/simv \
-	./src/3bits_counter.v \
-	./src/tb_two_3bits_counter.v #注意“./*** ”为文件所在的文件夹名；iverilog -o 为让编译器编译语句;simv为编译生成的文件，也就是v.out文件
+	./src/bits_counter.v \
+	./src/tb_bits_counter.v #注意“./*** ”为文件所在的文件夹名；iverilog -o 为让编译器编译语句;simv为编译生成的文件，也就是v.out文件
 	
 	
 simulate:
