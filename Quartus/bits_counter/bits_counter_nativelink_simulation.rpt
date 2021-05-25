@@ -1,0 +1,22 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  maxv
+Quartus root          :  d:/eda/digitalcircuit/quartus/quartus/bin64/
+Quartus sim root      :  d:/eda/digitalcircuit/quartus/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  bits_counter.vo
+Sim SDF File       :  bits_counter_v.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script d:/eda/digitalcircuit/quartus/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File bits_counter_run_msim_gate_verilog.do already exists - backing up current file as bits_counter_run_msim_gate_verilog.do.bak5
+Info: Spawning ModelSim-Altera Simulation software 
+Info: NativeLink simulation flow was successful
