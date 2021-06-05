@@ -1,2 +1,2 @@
 for item in range(1,5):
-    print('mul_addtree U'+str(item)+'(.x(a'+str(item)+'),.y(b'+str(item)+'),.out(mulout'+str(item)+'));')
+    print('mul_addtree U%d(.x(a%d),.y(b%d),.out(mulout%d));'%(item,item,item,item))
