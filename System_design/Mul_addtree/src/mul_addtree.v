@@ -1,10 +1,10 @@
 module mul_addtree_2_stage (
     input [3:0]x,y,
     input clk,clr,
-    output [7:0]out
+    output [7:0]out,add_tmp1,add_tmp2
 );
-    wire [3:0] stored1,stored2,stored3,stored4,out1,out2;
-    reg [3:0] add_tmp1,add_tmp2;
+    wire [7:0] stored1,stored2,stored3,stored4;
+    reg [7:0] add_tmp1,add_tmp2;
     reg [7:0] out;
     assign stored1 = y[3]?{1'b0,y[3:0],3'b0}:8'b0;//8'b0=00000000,不用把零都打出来
     assign stored2 = y[2]?{2'b0,y[3:0],2'b0}:8'b0;
@@ -17,7 +17,7 @@ module mul_addtree_2_stage (
             out<=8'b0;
         end else begin//注意流水线的语句写法，对于流水线理解要深
         add_tmp1<=stored1+stored2;
-        add_tmp2<=stored3+stored2;
+        add_tmp2<=stored3+stored4;
         out<=add_tmp1+add_tmp2;
         end
     end
