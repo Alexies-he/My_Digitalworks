@@ -1,0 +1,11 @@
+Fitter Status : Successful - Tue Jun 08 15:44:45 2021
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : wallace_top
+Top-level Entity Name : wallace_top
+Family : MAX V
+Device : 5M1270ZF324C5
+Timing Models : Final
+Total logic elements : 26 / 1,270 ( 2 % )
+Total pins : 16 / 271 ( 6 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

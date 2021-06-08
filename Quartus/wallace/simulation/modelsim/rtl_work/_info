@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/Quartus/wallace/simulation/modelsim
+vadd
+Z1 !s110 1623139115
+!i10b 1
+!s100 :M8hX6:R[KKA:3IlKUA7;0
+ILzIK_X1E2oDoI=a`L?d`n1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1623137120
+8D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/add_down.v
+FD:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/add_down.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1623139115.000000
+!s107 D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/add_down.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src|D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/add_down.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src
+Z8 tCvgOpt 0
+vfall_adder_down
+R1
+!i10b 1
+!s100 ofYWkUNHC93ZUco15E=zl3
+I:bzbLOIFJhK]=cKn4HKlV2
+R2
+R0
+R3
+8D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/fall_adder_down.v
+FD:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/fall_adder_down.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/fall_adder_down.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src|D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/fall_adder_down.v|
+!i113 1
+R6
+R7
+R8
+vhalf_adder_down
+R1
+!i10b 1
+!s100 ;nZ?<8d@CeBlJEF21ZmNd3
+IP`Sn:VTHD9UZ_Z<:be1@S1
+R2
+R0
+R3
+8D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/half_adder_down.v
+FD:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/half_adder_down.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/half_adder_down.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src|D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/half_adder_down.v|
+!i113 1
+R6
+R7
+R8
+vtb_wallace
+!s110 1623139116
+!i10b 1
+!s100 =cA5:K<;2Z@3i]I_ml?0K1
+IY0B;g[oL91P>b3]@Nm:^G3
+R2
+R0
+R3
+8D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/Quartus/wallace/../../System_design/Wallace/src/tb_wallace.v
+FD:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/Quartus/wallace/../../System_design/Wallace/src/tb_wallace.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1623139116.000000
+!s107 D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/Quartus/wallace/../../System_design/Wallace/src/tb_wallace.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/Quartus/wallace/../../System_design/Wallace/src|D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/Quartus/wallace/../../System_design/Wallace/src/tb_wallace.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/Quartus/wallace/../../System_design/Wallace/src
+R8
+vwallace_top
+R1
+!i10b 1
+!s100 G:dklIY>KTa`8Mg0jFIlA1
+IPnHMg03PiC1[H6ZcOHZnP2
+R2
+R0
+R3
+8D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/wallace_top.v
+FD:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/wallace_top.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1623139114.000000
+!s107 D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/wallace_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src|D:/EDA/DigitalCircuit/My_Digitalworks/My_Digitalworks/System_design/Wallace/src/wallace_top.v|
+!i113 1
+R6
+R7
+R8

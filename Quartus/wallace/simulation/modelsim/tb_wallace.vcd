@@ -1,0 +1,90 @@
+$date
+	Tue Jun 08 16:02:25 2021
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_wallace $end
+$var reg 4 ! x [3:0] $end
+$var reg 4 " y [3:0] $end
+$var wire 1 # out [7] $end
+$var wire 1 $ out [6] $end
+$var wire 1 % out [5] $end
+$var wire 1 & out [4] $end
+$var wire 1 ' out [3] $end
+$var wire 1 ( out [2] $end
+$var wire 1 ) out [1] $end
+$var wire 1 * out [0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11 !
+b100 "
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+x#
+$end
+#10180
+0*
+#13408
+0)
+#13555
+1(
+#13565
+0#
+#14108
+0$
+#15399
+0&
+#16223
+1'
+#16355
+0%
+#20000
+b10 !
+b11 "
+#30180
+1*
+#30267
+0*
+#31820
+0(
+#32801
+1)
+#33461
+1(
+#36223
+0'
+#40000
+b110 !
+b1000 "
+#52353
+0(
+#52771
+1(
+#52801
+0)
+#53181
+1'
+#53461
+0(
+#53599
+0'
+#54357
+1&
+#54384
+1'
+#54903
+0'
+#55543
+1%
