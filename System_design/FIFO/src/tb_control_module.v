@@ -11,7 +11,7 @@ initial
 	end
 initial begin
 	clk=0;rst=0;
-	repeat(50)
+	repeat(20)
 	#5 clk=!clk;
 	$stop;
 end
