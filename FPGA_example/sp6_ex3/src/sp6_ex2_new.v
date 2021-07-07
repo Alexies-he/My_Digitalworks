@@ -10,7 +10,7 @@ reg [19:0] count;
 			count<=20'd0;
 		end else begin
 			if (count<20'd999_999) begin
-				count=count+1'b1;
+				count<=count+1'b1;
 			end else begin
 				count<=20'd0;
 			end
