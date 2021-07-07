@@ -1,3 +1,6 @@
+`include "/Users/alexieshe/Desktop/MyDigitalworks/My_Digitalworks/System_design/Wallace/src/fall_adder_down.v"
+`include "/Users/alexieshe/Desktop/MyDigitalworks/My_Digitalworks/System_design/Wallace/src/half_adder_down.v"
+`include "/Users/alexieshe/Desktop/MyDigitalworks/My_Digitalworks/System_design/Wallace/src/add_down.v"//注意包含的是绝对路径
 module wallace_top (
     input [3:0] x,y,
     output [7:0] out
@@ -10,6 +13,6 @@ wire [5:0]out_tmp;
     fall_adder_down f1(.x(x[2]&y[1]),.y(x[3]&y[0]),.in(HA_out_1),.out_in(FA_in_1),.out(FA_out_1));
     fall_adder_down f2(.x(x[3]&y[1]),.y(HA_out_2),.in(HA_in_1),.out_in(FA_in_2),.out(FA_out_2));
     fall_adder_down f3(.x(x[3]&y[2]),.y(HA_in_2),.in(x[2]&y[3]),.out_in(FA_in_3),.out(FA_out_3));
-    add_ip1 a1(.dataa({FA_in_3,FA_out_3,FA_out_2,FA_out_1,x[2]&y[0],x[0]&y[1]}),.datab({x[3]&y[3],FA_in_2,FA_in_1,HA_in_3,HA_out_3,x[1]&y[0]}),.result(out_tmp),.cout(cout));//注意这里的add模块中，最后是输出7位比特的信号，out={add_a+add_b,x[0]&y[0]}
-    assign out={cout,out_tmp,x[0]&y[0]};
+    add a1(.add_a({FA_in_3,FA_out_3,FA_out_2,FA_out_1,x[2]&y[0],x[0]&y[1]}),.add_b({x[3]&y[3],FA_in_2,FA_in_1,HA_in_3,HA_out_3,x[1]&y[0]}),.out());//注意这里的add模块中，最后是输出7位比特的信号，out={add_a+add_b,x[0]&y[0]}
+    assign out={out_tmp,x[0]&y[0]};
 endmodule
