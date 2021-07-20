@@ -1,4 +1,3 @@
-
 module pc(CLK, RESET,LD, PCSEL, OFFSET, DIRECT, PC_OUT);
     input         CLK;
     input         RESET;

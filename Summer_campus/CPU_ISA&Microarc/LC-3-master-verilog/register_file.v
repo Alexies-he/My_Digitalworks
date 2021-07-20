@@ -38,7 +38,7 @@ module register_file(LD, DR, SR1, SR2, DR_IN, SR1_OUT, SR2_OUT);
     wire [15:0]   R7_OUT;
     
     wire [15:0]   SR1_IN;
-    wire [15:0]   SR2_IN;
+    wire [15:0]   SR2_IN;//用途？
     
     wire [7:0]    DEC_LD;
 
@@ -66,7 +66,7 @@ module register_file(LD, DR, SR1, SR2, DR_IN, SR1_OUT, SR2_OUT);
 
     // read : 1.select Register(R0-R7) by SRx
     mux16_8to1 ChoseSR1( .SEL(SR1),      .D_IN0(R0_OUT), .D_IN1(R1_OUT), .D_IN2(R2_OUT), .D_IN3(R3_OUT),
-                         .D_OUT(SR1_IN), .D_IN4(R4_OUT), .D_IN5(R5_OUT), .D_IN6(R6_OUT), .D_IN7(R7_OUT));
+                         .D_OUT(SR1_IN), .D_IN4(R4_OUT), .D_IN5(R5_OUT), .D_IN6(R6_OUT), .D_IN7(R7_OUT));//让SR1_IN与Rx_OUT相连
     
     mux16_8to1 ChoseSR2( .SEL(SR2),      .D_IN0(R0_OUT), .D_IN1(R1_OUT), .D_IN2(R2_OUT), .D_IN3(R3_OUT),
                          .D_OUT(SR2_IN), .D_IN4(R4_OUT), .D_IN5(R5_OUT), .D_IN6(R6_OUT), .D_IN7(R7_OUT)); 

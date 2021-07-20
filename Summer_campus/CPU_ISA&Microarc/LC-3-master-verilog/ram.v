@@ -1,5 +1,3 @@
-
-
 module ram #(parameter ADDR_SIZE = 16 ,
              parameter DATA_SIZE = 16 )
             (WE, ADDRESS, DATA_IN, DATA_OUT);
