@@ -2,11 +2,12 @@ all: clean compile simulate gtkwave
 
 compile:
 	iverilog -o ./build/simv \
-	./register.v \
-	./decoder_3to8.v \
-	./mux16_8to1.v \
-	./register_16.v \
-	register_tb.v \
+	./pc.v \
+	./mux16_4to1.v \
+	./add_16.v \
+	./full_adder.v \
+	./pc_reg.v \
+	./pc_tb.v \
 	
 	
 simulate:
