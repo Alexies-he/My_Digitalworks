@@ -1,17 +1,23 @@
-all: clean compile simulate gtkwave
+all: clean compile simulate
 
 compile:
 	iverilog -o ./build/simv \
-	./nzp.v \
-	./nzp_tb.v \
-	./comparetor.v \
-	./mux16_4to1.v \	
+	./src/tb_Flow_Control_Flow_top.v \
+	./src/Flow_Control_Flow_top.v \
+	./src/control.v \
+	./src/counter.v \
+	./src/DFF.v \
+	./src/mux8_4to1.v \
+	./src/ram.v \
+
+	
+	
 	
 simulate:
 	vvp -n ./build/simv #vvp为仿真语句，会生成测试激励中所规定的vcd文件
 	
 gtkwave:
-	gtkwave tb_****.vcd
+	gtkwave tb_Control_Flow_top.vcd
 
 
 clean:

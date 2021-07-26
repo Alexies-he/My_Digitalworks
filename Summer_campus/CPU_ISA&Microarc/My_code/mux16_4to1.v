@@ -1,15 +1,16 @@
 
-module mux16_4to1(SEL, D_IN0, D_IN1, D_IN2, D_IN3, D_OUT);
+module mux16_4to1#(
+   parameter DATA_SIZE = 16
+)
+(SEL, D_IN0, D_IN1, D_IN2, D_IN3, D_OUT);
    input [1:0]   SEL;
-   input [15:0]  D_IN0;
-   input [15:0]  D_IN1;
-   input [15:0]  D_IN2;
-   input [15:0]  D_IN3;
-   output [15:0] D_OUT;
+   input [DATA_SIZE-1:0]  D_IN0;
+   input [DATA_SIZE-1:0]  D_IN1;
+   input [DATA_SIZE-1:0]  D_IN2;
+   input [DATA_SIZE-1:0]  D_IN3;
+   output reg[DATA_SIZE-1:0] D_OUT;
 
    //********* The first design method ****************
-   reg [15:0] D_OUT;
-
    always @(SEL,D_IN0,D_IN1,D_IN2,D_IN3) begin
       case (SEL)
          2'b00: D_OUT <= D_IN0;

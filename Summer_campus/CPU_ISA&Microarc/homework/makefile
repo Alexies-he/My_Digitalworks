@@ -2,16 +2,15 @@ all: clean compile simulate gtkwave
 
 compile:
 	iverilog -o ./build/simv \
-	./nzp.v \
-	./nzp_tb.v \
-	./comparetor.v \
-	./mux16_4to1.v \	
+	./src/Flow_Control_Flow_top.v \
+	./src/tb_Flow_Control.v #注意“./*** ”为文件所在的文件夹名；iverilog -o 为让编译器编译语句;simv为编译生成的文件，也就是v.out文件
+	
 	
 simulate:
 	vvp -n ./build/simv #vvp为仿真语句，会生成测试激励中所规定的vcd文件
 	
 gtkwave:
-	gtkwave tb_****.vcd
+	gtkwave tb_Flow_Control_Flow.vcd
 
 
 clean:

@@ -6,19 +6,16 @@ module ram_1 #(
 	input clk,wr_,cs_,
 	input [DATA_DEPTH-1:0]addr,
 	input [DATA_SIZE-1:0] data_in,
-	output reg [DATA_SIZE:0] data_out
+	output reg [DATA_SIZE-1:0] data_out
+
 
 );
 	reg [DATA_SIZE-1:0] ram [0:DATA_DEPTH-1];
-	always @(posedge clk ) begin
-		if (cs_) begin
-			data_out <=8'bz;
-		end else begin
+	always @(posedge clk) begin
 			if (!wr_) begin
 				ram[addr] <= data_in;
 			end else begin
 				data_out <=ram[addr];
 			end
 		end
-	end
 endmodule
