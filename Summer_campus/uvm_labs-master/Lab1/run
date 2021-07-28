@@ -1,0 +1,2 @@
+#!/usr/bin/csh
+vcs -sverilog -ntb_opts uvm-1.1 -timescale=1ns/1ns ./top.sv -l fifo_compile.log; ./simv &

@@ -1,0 +1,5 @@
+#!/usr/bin/csh
+vcs -sverilog -ntb_opts uvm-1.1 -timescale=1ns/1ns ./fifo_pkg.sv ./fifo_top.sv -l fifo_compile.log 
+./simv +ntb_random_seed=value -l fifo_sim.log
+# To pass random see, use +ntb_random_seed
+# +ntb_random_seed=200 
